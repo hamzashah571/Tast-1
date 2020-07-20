@@ -1,0 +1,32 @@
+.container{
+	height: 632px;
+	width: 100%;
+	background-image: url('image1.png');
+	
+	background-image: center;
+	 
+	
+}
+.header{
+	height: 200px;
+}
+
+.wrapper{
+
+	width: 500px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 100px;
+	text-decoration-color: red;
+
+	
+	
+}
+.wrapper p{
+	color: red;
+	font-size: 20px;
+	font-family: helvetica;
+}
+.wrapper a{
+color: red;
+}
