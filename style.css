@@ -28,5 +28,23 @@
 	font-family: helvetica;
 }
 .wrapper a{
-color: red;
+
+	background-color: hotpink;
+ border: none;
+  color: white;
+  padding: 5px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+
+
+}
+
+.wrapper a:hover{
+	background-color: yellow; 
+}
+
+.special{
+	color: orange;
 }
