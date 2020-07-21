@@ -1,14 +1,65 @@
 .container{
-	height: 632px;
+	height: 800px;
 	width: 100%;
-	background-image: url('image1.png');
+	background-image: url('background.jpg');
 	
 	background-image: center;
 	 
 	
 }
 .header{
-	height: 200px;
+	background-color: #4d4dff;
+	height: 100px;
+	width: 100%;
+}
+
+.title{
+	width: 30%;
+	float: left;
+	text-align: center;
+	margin-top: 1em;
+
+}
+.title a{
+	color: white;
+	text-decoration: none;
+	font-style: oblique;
+}
+
+.menu{
+	float: right;
+
+}
+
+.menu ul{
+	display: flex;
+	align-items: center;
+	 list-style-type: disc;
+  margin-top: 3em;
+  
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
+  list-style:none;
+}
+
+.menu ul a{
+	color: white;
+	text-decoration: none;
+
+}
+
+
+
+
+
+
+.menu ul li{
+	margin-right: 40px;
+}
+
+.content{
+	height: 600px;
 }
 
 .wrapper{
@@ -47,4 +98,9 @@
 
 .special{
 	color: orange;
+}
+
+.footer{
+	background-color: #8c8c8c;
+	height: 100px;
 }
