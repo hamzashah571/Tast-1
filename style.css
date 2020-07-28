@@ -1,15 +1,19 @@
 .container{
-	height: 800px;
+	height: 1200px;
 	width: 100%;
-	background-image: url('background.jpg');
+	background-image: url('image1.jpg');
 	
-	background-image: center;
-	 
-	
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	  
 }
+
+
+
+
 .header{
-	background-color: #4d4dff;
-	height: 100px;
+		height: 100px;
 	width: 100%;
 }
 
@@ -21,7 +25,7 @@
 
 }
 .title a{
-	color: white;
+	color: #4d4dff;
 	text-decoration: none;
 	font-style: oblique;
 }
@@ -34,18 +38,23 @@
 .menu ul{
 	display: flex;
 	align-items: center;
-	 list-style-type: disc;
+	 
   margin-top: 3em;
   
   margin-left: 0;
   margin-right: 0;
-  padding-left: 40px;
+  
   list-style:none;
 }
 
 .menu ul a{
-	color: white;
+	color:white;
 	text-decoration: none;
+	padding: 5px 10px;
+	
+	
+	
+	background-color: black;
 
 }
 
@@ -59,10 +68,45 @@
 }
 
 .content{
-	height: 600px;
+	height: 1000px;
+	
+}
+.banner{
+	height: 200px;
+	width: 100%;
+	background-image: url('banner.jpg');
+	background-position: center;
+	text-align: center;
+	background-repeat: no-repeat;
+	margin-top: 100px;
+	display: inline-block;
+	
+	
+	
+	
+}
+.banner h1{
+	color: white;
+
+}
+.banner p{
+	color: white;
 }
 
-.wrapper{
+.grid-container {
+
+	height: 400px;
+	margin-top: 100px;
+  display: grid;
+  grid-template-columns:auto auto auto;
+  text-align: center;
+  
+
+
+
+
+
+/*.wrapper{
 
 	width: 500px;
 	text-align: center;
@@ -72,13 +116,13 @@
 
 	
 	
-}
-.wrapper p{
+}*/
+/*.wrapper p{
 	color: red;
 	font-size: 20px;
 	font-family: helvetica;
-}
-.wrapper a{
+}*/
+/*.wrapper a{
 
 	background-color: hotpink;
  border: none;
@@ -90,15 +134,15 @@
   font-size: 16px;
 
 
-}
+}*/
 
-.wrapper a:hover{
+/*.wrapper a:hover{
 	background-color: yellow; 
 }
 
 .special{
 	color: orange;
-}
+}*/
 
 .footer{
 	background-color: #8c8c8c;
